@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------- NAVBAR ---------- */
+nav{
+    background: linear-gradient(90deg, orange, darkorange);
+    color: white;
+    padding: 25px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+li,h1,ul,div{
+    display: inline;
+}
+
+ul{
+    margin-left: 60%;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+ul li a:hover{
+    color: #333;
+}
+
+/* ---------- HERO / TEXT ---------- */
+.one{
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ---------- IMAGE SECTIONS ---------- */
+.two, .three, .four, .five{
+    padding-left: 20%;
+}
+
+img{
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+}
+
+/* ---------- SEARCH ---------- */
+input{
+    width: 60%;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid orange;
+    outline: none;
+    font-size: 16px;
+}
+
+input:focus{
+    border-color: darkorange;
+}
+
+.search{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+
+/* ---------- PRODUCT CARDS ---------- */
+.hii{
+    border: none;
+    display: inline-block;
+    width: 220px;
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.hii:hover{
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
+
+.products{
+    text-align: center;
+}
+
+/* ---------- FOOTER ---------- */
+.hiii{
+    background: linear-gradient(90deg, orange, darkorange);
+    color: white;
+    padding: 20px;
+    display: block;
+    margin-top: 60px;
+    text-align: center;
+}
+
+/* ---------- PACKAGE PAGE ---------- */
+.para, .para1{
+    padding: 70px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ---------- PLANS ---------- */
+.plan, .plan1, .plan2, .plan3{
+    border: none;
+    display: inline-block;
+    padding: 18px 30px;
+    border-radius: 30px;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.plan:hover,
+.plan1:hover,
+.plan2:hover,
+.plan3:hover{
+    background-color: darkorange;
+    transform: scale(1.05);
+}
+
+.plan a,
+.plan1 a,
+.plan2 a,
+.plan3 a{
+    color: white;
+    text-decoration: none;
+}
+
+.total{
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+.mon{
+    margin-top: 15px;
+    margin-left: 43%;
+}
+
+.tue{
+    margin-top: 15px;
+    margin-left: 43%;
+}
+
+.wed{
+    margin-top: 15px;
+    margin-left: 44%;
+}
+
+.thu{
+    text-align: center;
+    padding: 40px;
+    font-size: 18px;
+}
+img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+}
